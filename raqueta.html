@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mi raqueta – Point</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<nav><div class="w"><a class="logo" href="index.html"><img src="assets/img/logo-1.png" alt="Point" height="38"><span>point</span></a><span class="sp"></span><a class="btn dl" href="index.html#descargar">Descargar</a>
+<button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button></div>
+<div id="menu" class="menu"><div class="w"><a href="index.html">Inicio</a><a href="app.html">La app</a><a href="estadisticas.html">Estadísticas</a><a href="comunidad.html">Comunidad</a><a href="raqueta.html" class=cur>Mi raqueta</a><a href="token.html">Token</a><a href="progresa.html">Progresa</a><a href="planes.html">Planes</a><a href="preguntas.html">Preguntas</a></div></div></nav>
+<section class="page"><div class="w"><div class="head"><h2>Tu raqueta.</h2><p>Elige o escribe cuál es tu pala y Point te muestra su ficha, tus estadísticas con ella y cómo cuidarla.</p></div>
+<div class="rq"><div class="rqform"><label for="pala">Selecciona o escribe tu pala</label><p>Empieza a escribir y elige de la lista, o escribe el modelo que usas.</p>
+<input id="pala" class="fld" list="palas" placeholder="Ej. Bullpadel Wonder 2026" autocomplete="off"><datalist id="palas"></datalist>
+<div class="chips" id="chips"></div><p class="note">Las fichas de ejemplo son demostrativas. Si tu modelo aún no está en la lista, se mostrará con una imagen genérica.</p></div>
+<div class="rqphone" aria-live="polite"><div class="rqtop"><span aria-hidden="true">←</span><b>Tu raqueta</b></div>
+<div class="rqcard"><div class="rqhead"><b id="rname">Bullpadel Wonder 2026</b><span class="badge" id="rlevel">Nivel avanzado</span></div>
+<div class="rqimg" id="rimgbox"><img id="rimg" src="assets/img/palas/bullpadel-wonder-2026.webp" alt="Bullpadel Wonder 2026"></div>
+<div class="spec"><span>Peso<b id="rw">365 g</b></span><span>Balance<b id="rb">26 cm</b></span><span>Tamiz/Tamaño<b id="rs">365 cm²</b></span></div></div>
+<div class="rqlist"><details><summary>Estadísticas</summary><p>Golpes, potencia y regularidad registrados con esta pala.</p></details><details><summary>En qué destaca</summary><p>Un resumen de las fortalezas de tu pala según tu estilo de juego.</p></details><details><summary>Punto dulce</summary><p>Dónde impactas más la pelota en la cara de la raqueta.</p></details><details><summary>Bandeja</summary><p>Cómo rinde tu pala en bandejas y golpes defensivos.</p></details><details><summary>Salud de la raqueta</summary><p>Desgaste de superficie y estado general de tu pala.</p></details><details><summary>Perfiles compatibles</summary><p>Jugadores de tu nivel que usan una pala parecida.</p></details></div></div></div></div></section><div class="brands"><div class="w"><small>Trabajamos con las mejores marcas de pádel</small><ul><li><img src="assets/img/brands/bullpadel.svg" alt="Bullpadel"></li><li><img src="assets/img/brands/babolat.svg" alt="Babolat"></li><li><img src="assets/img/brands/siux.svg" alt="SIUX"></li><li><img src="assets/img/brands/nox.svg" alt="NOX"></li><li><img src="assets/img/brands/head.svg" alt="HEAD"></li><li><img src="assets/img/brands/adidas.svg" alt="adidas"></li></ul></div></div>
+<div class="cta" id="descargar"><div class="w"><img class="ctalogo" src="assets/img/logo-2.png" alt="Logo Point"><h2>Cada punto cuenta. Empieza el tuyo.</h2><p>Descarga Point y registra tu próximo partido.</p><a class="btn" href="#">App Store</a> &nbsp; <a class="btn" href="#">Google Play</a></div></div>
+<footer><div class="w ft"><img src="assets/img/logo-1.png" alt="Point"><span>© Point · Más que un deporte, una comunidad.</span><span>Privacidad · Términos · Contacto</span></div></footer>
+<script src="js/main.js"></script><script src="js/raqueta.js"></script></body></html>

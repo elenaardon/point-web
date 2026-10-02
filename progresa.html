@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Progresa – Point</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css"></head><body>
+<nav><div class="w"><a class="logo" href="index.html"><img src="assets/img/logo-1.png" alt="Point" height="38"><span>point</span></a><span class="sp"></span><a class="btn dl" href="index.html#descargar">Descargar</a>
+<button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button></div>
+<div id="menu" class="menu"><div class="w"><a href="index.html">Inicio</a><a href="app.html">La app</a><a href="estadisticas.html">Estadísticas</a><a href="comunidad.html">Comunidad</a><a href="raqueta.html">Mi raqueta</a><a href="token.html">Token</a><a href="progresa.html" class=cur>Progresa</a><a href="planes.html">Planes</a><a href="preguntas.html">Preguntas</a></div></div></nav>
+<section class="page"><div class="w auth"><div><div class="ic" style="color:var(--blue)">3</div><h2 style="margin-top:20px">Progresa.</h2><p style="margin-top:20px;color:var(--mut)">Mira tu evolución, compara partidos y cumple objetivos y logros para seguir mejorando.</p>
+<ul class="split-list" style="list-style:none;padding:0;margin:28px 0 0;display:grid;gap:14px"><li>Evolución de tu nivel partido a partido</li><li>Objetivos, rachas y logros</li><li>Comparación entre partidos</li></ul></div>
+<div class="authbox"><h3 style="margin-bottom:6px">Regístrate para seguir tu progreso y cumplir tus objetivos</h3><p style="color:var(--mut);margin-bottom:20px;font-size:15px">Crea tu cuenta gratis o inicia sesión si ya tienes una.</p>
+<div class="tabs" role="tablist"><button role="tab" id="t-reg" aria-selected="true" aria-controls="f-reg">Crear cuenta</button><button role="tab" id="t-log" aria-selected="false" aria-controls="f-log">Iniciar sesión</button></div>
+<form id="f-reg" novalidate><label>Nombre<input class="fld" name="nombre" autocomplete="name" placeholder="Martina"></label><label>Correo<input class="fld" name="email" type="email" autocomplete="email" placeholder="tu@correo.com"></label><label>Contraseña<input class="fld" name="pass" type="password" autocomplete="new-password" placeholder="Mínimo 8 caracteres"></label><label class="chk"><input type="checkbox" name="terms"> Acepto los términos y la política de privacidad</label><button class="btn" style="background:var(--blue);color:#fff" type="submit">Crear cuenta</button><div class="msg" role="status"></div></form>
+<form id="f-log" novalidate hidden><label>Correo<input class="fld" name="email" type="email" autocomplete="email" placeholder="tu@correo.com"></label><label>Contraseña<input class="fld" name="pass" type="password" autocomplete="current-password"></label><button class="btn" style="background:var(--blue);color:#fff" type="submit">Iniciar sesión</button><div class="msg" role="status"></div></form></div></div></section>
+<div class="cta" id="descargar"><div class="w"><img class="ctalogo" src="assets/img/logo-2.png" alt="Logo Point"><h2>Cada punto cuenta. Empieza el tuyo.</h2><p>Descarga Point y registra tu próximo partido.</p><a class="btn" href="#">App Store</a> &nbsp; <a class="btn" href="#">Google Play</a></div></div>
+<footer><div class="w ft"><img src="assets/img/logo-1.png" alt="Point"><span>© Point · Más que un deporte, una comunidad.</span><span>Privacidad · Términos · Contacto</span></div></footer>
+<script src="js/main.js"></script><script src="js/auth.js"></script></body></html>
